@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40">
+   <children>
+      <BorderPane layoutX="-360.0" layoutY="-244.0" prefHeight="775.0" prefWidth="0.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="188.0" prefWidth="804.0" BorderPane.alignment="TOP_CENTER">
+               <children>
+                  <HBox layoutX="248.0" layoutY="31.0" prefHeight="100.0" prefWidth="484.0">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </HBox>
+                  <Button layoutX="71.0" layoutY="31.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Sit" />
+                  <Button layoutX="70.0" layoutY="94.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Leave" />
+                  <MenuBar layoutX="887.0" layoutY="6.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Game Change">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="5 Card Joker" />
+                              <MenuItem mnemonicParsing="false" text="Deuces Wild" />
+                              <MenuItem mnemonicParsing="false" text="5 Card Draw" />
+                              <MenuItem mnemonicParsing="false" text="7 Card Draw" />
+                              <MenuItem mnemonicParsing="false" text="Texas Hold 'Em" />
+                              <MenuItem mnemonicParsing="false" text="Omaha" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="210.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="105.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="14.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="105.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="14.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="105.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="14.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="114.0" layoutY="394.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Sit" />
+                  <Button layoutX="114.0" layoutY="454.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Leave" />
+               </children>
+            </AnchorPane>
+         </left>
+         <bottom>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox layoutX="234.0" layoutY="50.0" prefHeight="100.0" prefWidth="507.0">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </HBox>
+                  <Button layoutX="885.0" layoutY="50.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Sit" />
+                  <Button layoutX="885.0" layoutY="110.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Leave" />
+               </children>
+            </AnchorPane>
+         </bottom>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="102.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="102.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="12.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="102.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="14.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="102.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="88.0" layoutX="14.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Sit" />
+                  <Button layoutX="14.0" layoutY="74.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="Leave" />
+               </children>
+            </AnchorPane>
+         </right>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="118.0" layoutY="455.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Play" />
+                  <Button layoutX="325.0" layoutY="455.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Draw" />
+                  <ImageView fitHeight="196.0" fitWidth="134.0" layoutX="51.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="196.0" fitWidth="134.0" layoutX="228.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="196.0" fitWidth="134.0" layoutX="408.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="196.0" fitWidth="134.0" layoutX="126.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="196.0" fitWidth="134.0" layoutX="295.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
